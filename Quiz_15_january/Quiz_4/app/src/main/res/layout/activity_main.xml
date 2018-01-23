@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.quiz_4.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etalas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Alas"
+            android:inputType="number"
+            android:padding="16dp"/>
+
+        <EditText
+            android:id="@+id/ettinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tinggi"
+            android:inputType="number"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/btnhitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung"
+            />
+
+        <TextView
+            android:id="@+id/txthasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil :" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
